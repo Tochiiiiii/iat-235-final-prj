@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inika", sans-serif; 
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inika", sans-serif; 
+
+}
+
+.info {
+    background-color:aliceblue;
+
+}
+
+.row {
+    flex-direction: column;
+}
+
+.back-btn, .pay-btn{
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.6s ease-in-out; 
+    text-align: center;
+    padding: 15px 32px; 
+    background-color:rgba(0, 0, 0, 0.2);
+    color: black;
+} 
+
+.pay-btn a{
+    color:aliceblue;
+}
+
+.back-btn a{
+    color: aliceblue;
+}

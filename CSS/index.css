@@ -18,7 +18,7 @@ nav a, .ticket-btn {
     padding: 0.5rem;
     transition: background-color 0.6s ease-in-out; 
     text-align: center;
-    /* height: 100%; */
+    
 }
 
 .nav-current-item, .nav-current-item:hover {
