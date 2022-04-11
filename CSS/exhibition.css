@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inika", sans-serif; 
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body.exhibition {
+    background-image: url(../img/exhibition2.jpg);
+
+}
+
+.ticket-btn {
+    font-size: 2em;
+    padding: 0.75rem;
+    margin: auto;
+
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin: 7rem 0 0 7rem;
+    font-size: 1.5rem;
+}
+
+.home-container ul {
+    list-style: none;
+    padding: 0
+}
+.school .school2 {
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.img1 {
+    padding-bottom: 1rem;
+    
+}
+
+.text-2 {
+    color: rgb(244, 244, 244);
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 1rem;
+}
+
+.sup{
+    color: rgb(244, 244, 244);
+    background: rgba(0, 0, 0, 0.45);
+    padding: 1rem;
+}
+
+.sup a {
+    color: rgb(244, 244, 244);
+}
+  

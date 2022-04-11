@@ -1,0 +1,45 @@
+
+body.gerrit {
+    background-image: url(../img/home.jpg);
+
+}
+
+.image-1 {
+    margin: 0 auto
+}
+
+.image-2 {
+    margin: 1rem auto 0 auto
+}
+
+.title {
+    font-size: 1.6rem;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .desktop {
+        display: none;
+    } 
+
+    .mobile {
+        display: block;
+    }
+
+    .col:nth-child(2n + 1) {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        padding-top: 1rem;
+    }
+
+    .image-1 {
+        margin-bottom: 1rem;
+    }
+}

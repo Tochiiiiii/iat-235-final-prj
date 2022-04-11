@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inika", sans-serif;
+    
+
+}
+
+
+.lin{
+    color: rgb(244, 244, 244);
+    background: rgba(0, 0, 0, 0.45);
+    padding: 1rem;
+}
+
+.lin a {
+    color: rgb(244, 244, 244);
+}
+
+.web {
+    background-image: url(../img/home.jpg);
+
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 7rem 0 0 7rem;
+    font-size: 1.5rem;
+}
